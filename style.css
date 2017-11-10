@@ -1,0 +1,162 @@
+
+
+body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-family: "freight-sans-pro", "Open Sans", Helvetica, sans-serif;
+}
+
+.note{
+
+	background-color: white;
+	width: 90%;
+	height: 10%;
+	padding: 3%;
+	margin-left: 30px;
+	margin-top: 1px;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	color:red;
+
+
+}
+
+.site-header {
+    background: #fff;
+    box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+.nav-global {
+    height: 40px;
+    width: 100%;
+    background: #01416f;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.nav-global li {
+    display: inline-block;
+    height: 39px;
+    margin-left: 8px;
+    line-height: 38px;
+
+}
+
+.nav ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+
+}
+.nav-global ul {
+    text-align: right;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-global li.donate {
+    background: #f26522;
+}
+.site-logo {
+    
+    width: 221px;
+  
+    margin: 25px 0 29px 10px;
+}
+
+.logo-text{
+	
+	text-align: center;
+}
+
+.main {
+    border-top: 1px solid #d3d3d3;
+    background-color: lightgray;
+    display: inline-block;
+    float: left;
+    
+    
+
+}
+
+.about-main {
+    border-top: 1px solid #d3d3d3;
+    background-color: lightgray;
+    display: flex;
+    align-content: space-between;
+
+}
+
+.about-left-text{
+
+	width: 60%;
+	background-color: white;
+	display: inline-block;
+	margin-right: 1px;
+
+
+
+}
+.about-right-text{
+
+	display: inline-block;
+	width: 40%;
+	
+	background-color: #00aef0;
+	margin-left: 1px;
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
+.about-left-text-heading{
+
+	font-size: 16px;
+	color: red;
+	font-family: "freight-sans-pro";
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 10px;
+}
+
+.about-left-text-detail{
+
+margin-top: 5px;
+	margin-left: 5px;
+	padding: 10px;	
+}
+
+.about-lcrf{
+
+	display: block;
+	
+}
+
+a {
+    background-color: transparent;
+    color: white;
+}
+nav ul {
+    margin: 12;
+    padding: 12;
+    list-style: none;
+    letter-spacing: 3px;
+}
+
+li{
+	    list-style-position: inside;
+	   	color: white;
+	   		
+}
+strong{
+
+	font-weight: bold;
+}
+
+
