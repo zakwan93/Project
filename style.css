@@ -1,9 +1,173 @@
 
+
+body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-family: "freight-sans-pro", "Open Sans", Helvetica, sans-serif;
+}
+
+.note{
+
+	background-color: white;
+	width: 90%;
+	height: 10%;
+	padding: 3%;
+	margin-left: 30px;
+	margin-top: 1px;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	color:red;
+
+
+}
+
+.site-header {
+    background: #fff;
+    box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+.nav-global {
+    height: 40px;
+    width: 100%;
+    background: #01416f;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.nav-global li {
+    display: inline-block;
+    height: 39px;
+    margin-left: 8px;
+    line-height: 38px;
+
+}
+
+.nav ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+
+}
+.nav-global ul {
+    text-align: right;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-container{
+
+
+
+
+}
+.nav-global li.donate {
+    background: #f26522;
+}
+.site-logo {
+    
+    width: 221px;
+  
+    margin: 25px 0 29px 10px;
+}
+
+.logo-text{
+	
+	text-align: center;
+}
+
+.main {
+    border-top: 1px solid #d3d3d3;
+    background-color: lightgray;
+    
+}
+
+.about-main {
+    border-top: 1px solid #d3d3d3;
+    background-color: lightgray;
+    
+}
+
+.about-left-text{
+
+	width: 58%;
+	background-color: white;
+	
+	padding: 20px;
+	letter-spacing: 2px;
+	display: inline-block;
+	height: 250px;
+vertical-align: top;
+}
+
+.about-left-text-heading{
+
+	font-size: 16px;
+	color: red;
+	font-family: "freight-sans-pro";
+	padding: 12px;
+}
+
+.about-left-text-detail{
+width: 58%;
+
+	
+}
+
+
+
+.about-right-text{
+
+	width: 36%;
+	height: 250px;
+	display: inline-block;
+	background-color: #00aef0;
+	
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
+
+.about-lcrf{
+
+	text-align: center;
+	width: 100%;
+}
+
+a {
+    background-color: transparent;
+    color: white;
+}
+nav ul {
+    margin: 12;
+    padding: 12;
+    list-style: none;
+    letter-spacing: 3px;
+}
+
+li{
+	    list-style-position: inside;
+	   	color: white;
+	   		
+}
+strong{
+
+	font-weight: bold;
+}
+
+
 #logo{
 	float:left;
 	border: 5px solid blue;
 	border-radius: 2px;
 }
+
 
 .nav, ul, li{
 	list-style: none;
@@ -13,17 +177,8 @@
 	background-color: white;
 }
 
-ul{
-	margin: 0;
-    padding: 0;
-    width: 400px;
-    border: 5px solid black;
-    float:right;
-}
-
 
 .footer{
-
 	width: 960px;
 	height: 300px;
 	background-color: lightgray;
@@ -32,22 +187,36 @@ ul{
 }
 
 .v_card{
-
 	color: #666666;
     font-family: "freight-sans-pro", "Open Sans", Helvetica, sans-serif;
     background-color: lightgray;
     width: 100%;
     height: 100px;
-
 }
 
-p{
 
+#main{
+	margin:0px;
+	align-content: center;
+}
+
+#contact_info{
 	display: block;
 	margin: 0;
     padding-top: 15px;
     text-indent: 0;
     text-decoration: none;
-    text-align: center;
+    font-family: "tahoma">
+}
+h3{
+	color:orange;
+	font-family: "TimesNewRoman";
 }
 
+
+.container_donate{
+	background-color: royalblue;
+	border: 1px solid royalblue;
+	width: 100%;
+	height: 200px;
+}
