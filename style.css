@@ -1,7 +1,4 @@
 
-body{
-	background-color: silver;
-}
 
 body{
 	background-color: white;
@@ -64,6 +61,12 @@ body{
     position: relative;
 }
 
+.text-container{
+
+
+
+
+}
 .nav-global li.donate {
     background: #f26522;
 }
@@ -82,40 +85,25 @@ body{
 .main {
     border-top: 1px solid #d3d3d3;
     background-color: lightgray;
-    display: inline-block;
-    float: left;
     
-    
-
 }
 
 .about-main {
     border-top: 1px solid #d3d3d3;
     background-color: lightgray;
-    display: flex;
-    align-content: space-between;
-
+    
 }
 
 .about-left-text{
 
 	width: 60%;
 	background-color: white;
-	display: inline-block;
-	margin-right: 1px;
-
-
-
-}
-.about-right-text{
-
-	display: inline-block;
-	width: 40%;
 	
-	background-color: #00aef0;
-	margin-left: 1px;
 	padding: 20px;
 	letter-spacing: 2px;
+	display: inline-block;
+	height: 250px;
+vertical-align: top;
 }
 
 .about-left-text-heading{
@@ -123,21 +111,31 @@ body{
 	font-size: 16px;
 	color: red;
 	font-family: "freight-sans-pro";
-	margin-top: 5px;
-	margin-left: 5px;
-	padding: 10px;
+	padding: 12px;
 }
 
 .about-left-text-detail{
+width: 50%;
 
-margin-top: 5px;
-	margin-left: 5px;
-	padding: 10px;	
+	
 }
+
+
+
+.about-right-text{
+
+	width: 33%;
+	height: 250px;
+	display: inline-block;
+	background-color: #00aef0;
+	
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
 
 .about-lcrf{
 
-	display: block;
 	
 }
 
@@ -169,21 +167,7 @@ strong{
 	border-radius: 2px;
 }
 
-.nav, ul, li{
-	list-style: none;
-	display: inline;
-	text-align: center;
-	font-family: "tahoma";
-	background-color: blue;
-}
 
-ul{
-	margin: 0;
-    padding: 0;
-    width: 400px;
-    border: 5px solid black;
-    float:right;
-}
 
 
 .footer{
@@ -221,14 +205,6 @@ h3{
 	font-family: "TimesNewRoman";
 }
 
-.container{
-	border:1px solid white;
-	background-color: white;
-	width: 50%;
-	height: 50%;
-	margin-left: 25%;
-	color:gray;
-}
 
 .container_donate{
 	background-color: royalblue;
@@ -236,33 +212,3 @@ h3{
 	width: 100%;
 	height: 200px;
 }
-
-#mainpic{
-	display: block;
-}
-
-a:link {
-    color: green; 
-    background-color: transparent; 
-    text-decoration: none;
-}
-
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
