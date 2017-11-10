@@ -96,7 +96,7 @@ body{
 
 .about-left-text{
 
-	width: 60%;
+	width: 58%;
 	background-color: white;
 	
 	padding: 20px;
@@ -115,7 +115,7 @@ vertical-align: top;
 }
 
 .about-left-text-detail{
-width: 50%;
+width: 58%;
 
 	
 }
@@ -124,7 +124,7 @@ width: 50%;
 
 .about-right-text{
 
-	width: 33%;
+	width: 36%;
 	height: 250px;
 	display: inline-block;
 	background-color: #00aef0;
@@ -136,7 +136,8 @@ width: 50%;
 
 .about-lcrf{
 
-	
+	text-align: center;
+	width: 100%;
 }
 
 a {
